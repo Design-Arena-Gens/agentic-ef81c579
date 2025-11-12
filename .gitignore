@@ -883,7 +883,6 @@ venv.bak/
 *.json
 *.xml
 *.parquet
-data/
 datasets/
 
 # ===== CUSTOM PROJECT FILES =====
@@ -913,5 +912,25 @@ config/database.yml
 *.rar
 *.tar
 *.zip
+
+# ===== PROJECT OVERRIDES =====
+!package.json
+!package-lock.json
+!tsconfig.json
+!tailwind.config.ts
+!postcss.config.mjs
+!next.config.mjs
+!next-env.d.ts
+!README.md
+!app/
+!app/**
+!components/
+!components/**
+!lib/
+!lib/**
+!data/
+!data/**
+!public/
+!public/**
 
 # ===== END =====
